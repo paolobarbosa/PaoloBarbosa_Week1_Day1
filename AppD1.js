@@ -1,7 +1,7 @@
 import React, { Component, useState } from 'react';
 import './AppD1.css';
 
-class App extends Component {
+class AppD1 extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -18,7 +18,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="AppD1">
         <h1>Week1 Day1</h1>
         <h2>Person Information</h2>
         <p>Name: {this.state.name}</p>
@@ -51,4 +51,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default AppD1;
